@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/space.jpg");
+    background-image: url("Images/space.jpg");
     color: #FFFFFF;
     text-align: center;
     font-family: 'Dosis', sans-serif;
@@ -40,7 +40,7 @@ body {
 	margin-left: 250px;
 	margin-top: -37px;
 	text-align: left;
-	
+
 	z-index: 100;
 }
 

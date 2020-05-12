@@ -13,33 +13,34 @@ body {
 
 /* Header on top of the page to give the page a title*/
 .header{
-	
+	font-size: 50px;
 	color: rgb(0,0,0);
 	background-color: #FFFFFF;
 	padding: 40px;
-	font-size: 50px;
 }
 
 /* Make sure the text and fields are in the right position*/
 .variables{
+	padding-left: 280px;
 	height: 10px;
+	width: 700px;
 	font-size: 30px;
 	margin: 100px;
-	padding-left: 280px;
-	width: 700px;
-	text-align: center;
 	top: 200px;
+	text-align: center;
+	
 	z-index: 100;
 }
 
-.units{
-	text-align: left;
-	height: 40px;
-	font-size: 20px;
+.units{	
 	padding: 10px;
+	height: 40px;
 	width: 700px;
+	font-size: 20px;
 	margin-left: 250px;
 	margin-top: -37px;
+	text-align: left;
+	
 	z-index: 100;
 }
 

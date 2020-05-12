@@ -1,3 +1,4 @@
+// Making the calculation inbetween the elements
 var textBlock = document.createElement("INPUT");
 
 textBlock.setAttribute("type", "text");
@@ -25,3 +26,18 @@ if(throttle > 100){
 }
 
 }
+
+// The countdown until the fuel is empty
+//where will the countdown start
+var counter = 100;
+//the countdown will go lower with the second
+var fuelCountdown = setInterval(function(){
+  console.log(counter);
+  counter--
+ //alert that that there is almost no fuel left
+  if (counter === 0) {
+    alert("Fuel almost empty, please refill.");
+    clearInterval(fuelCountdown);
+  }
+ //how quick will the countdown go
+}, 1000);

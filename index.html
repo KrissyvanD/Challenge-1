@@ -2,16 +2,27 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>my first JavaScript</title>
+		<title>Houston, we don't have a problem</title>
 		<link rel="stylesheet" type="text/css" href="mystyles.css">
-		<script src='Scripts/main.js' defer = ""></script>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-	</head>
+		<script src='main.js' defer = ""></script>
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
 
+	</head>
 	<body>
-		<section>
-        <div class = "menubar"><p>SpaceX</p></div>
-        <div class = "shipparameters"> <p>Ship Parameters</p></div>
-    </section>
+	<!-- Header to make sure there is a title -->
+        <h1 class = "header"> SpaceX</h1>
+     
+    <!-- The textfields where you can fill in the throttlevalue until 100%, the throttle will define how fast you can go and how many fuel you use-->
+        <div>
+       <ul class = "variables">
+       <p> Throttle position</p> <p class = "units" > <input id="throttleValues" type="text" name="Throttle" value="0" onchange="calculate()"> % </p>
+
+       <p> Speed-o-meter </p> <p class="units"> <input id="speedValues" type="text" name="Speed" value="0" disabled> Miles / H </p>
+
+       <p> Fuel consumption </p> <p class="units" > <input id="fuelValues" type="text" name="Fuel" value="0" disabled> Fuel/Mile </p>
+      </ul>
+  </div>
+
+	
 	</body>
 </html>
